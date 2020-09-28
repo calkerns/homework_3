@@ -42,7 +42,7 @@ p{
 
 a{
   font-size: 16px;
-  color: #B92751;
+  color: #C12258;
   text-decoration: underline wavy;
 }
 
@@ -52,19 +52,24 @@ table{
     margin: auto;
 }
 
-.colhead{
+.colhead {
   background-color: #7e0820;
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
   text-align: center;
-  vertical-align: center;
+  vertical-align: middle;
   text-transform: uppercase;
 }
 
 .rowhead{
   border-top:   2px solid #000000;
   border-right: 2px solid #000000;
+}
+
+.rowhead {
+  text-align: center;
+  vertical-align: middle;
 }
 
 td{
@@ -116,6 +121,7 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
-  position: absolute;
+  position: fixed;
+  bottom: 0;
 }
 
